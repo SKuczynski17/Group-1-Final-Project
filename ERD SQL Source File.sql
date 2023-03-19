@@ -23,6 +23,24 @@ CREATE TABLE "NFL_Game_Data" (
     "Sacks_away" string   NOT NULL,
     "Sacks_home" string   NOT NULL,
     "Rushing_attempts_away" integer   NOT NULL,
-    "Rushing_attempts_home" integer   NOT NULL
+    "Rushing_attempts_home" integer   NOT NULL,
+    "Fumbles_away" integer   NOT NULL,
+    "Fumbles_home" integer   NOT NULL,
+    "Int_away" integer   NOT NULL,
+    "Int_home" integer   NOT NULL,
+    "Turnovers_away" integer   NOT NULL,
+    "Turnovers_home" integer   NOT NULL,
+    "Penalties_away" string   NOT NULL,
+    "Penalties_home" string   NOT NULL,
+    "Redzone_away" string   NOT NULL,
+    "Redzone_home" string   NOT NULL,
+    "Drives_away" integer   NOT NULL,
+    "Drives_home" integer   NOT NULL,
+    "Def_st_td_away" integer   NOT NULL,
+    "Def_st_td_home" integer   NOT NULL,
+    "Possession_away" string   NOT NULL,
+    "Possession_home" string   NOT NULL,
+    "Score_away" integer   NOT NULL,
+    "Score_home" integer   NOT NULL
 );
 
