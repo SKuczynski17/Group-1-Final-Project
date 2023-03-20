@@ -2,6 +2,8 @@
 ## SuperBowl Champion Predictions
 ### Why we choose this topic?
 
+# draft for  why we choose this topic 
+in these group project we have choosen the topic of predicting SuperBowl champions using machine learning. This topic was likely chosen due to the popularity of the NFL and the SuperBowl, as well as the challenge and potential for innovation in using machine learning to predict outcomes. The group is interested in analyzing the impact of key metrics such as Points Scored Differential, Turnover Differential, and Time of Possession on the likelihood of winning a SuperBowl. 
 ### Questions to be answered:
 
 With this data we are looking to create a machine learning model to analyze the impact key metrics have on the likelyhood of winning a Superbowl and to predict future Super Bowl winners.
