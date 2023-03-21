@@ -1,7 +1,7 @@
 # Group-1-Final-Project
 ## SuperBowl Champion Predictions
 
-### Group 1 Memebers
+### Group 1 Members
 
 Our group is made up of individuals with different backgrounds, experiences, and expertise. We value and appreciate each member's unique contribution and strive to create a supportive environment where everyone can thrive.
 
@@ -10,6 +10,16 @@ Our group is made up of individuals with different backgrounds, experiences, and
 - Vytas Stuopis
 - Samuel Aboma
 - Felipe Serrano
+
+### Technologies Used
+#### Project Management
+
+We have chosen to use Asana to track our progress and the stages of this project. This tool allows us to assign tasks, share files, feedback and ideas.
+
+#### Dataset and ERD
+
+We will be pulling our dataset from [Open ML](https://www.openml.org/search?type=data&status=active&id=43525&sort=runs) and we have created the ERD using the [Quick DBD](https://app.quickdatabasediagrams.com/#/) app.
+
 
 ### Why we choose this topic?
 
