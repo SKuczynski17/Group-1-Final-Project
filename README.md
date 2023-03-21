@@ -1,5 +1,16 @@
 # Group-1-Final-Project
 ## SuperBowl Champion Predictions
+
+### Group 1 Memebers
+
+Our group is made up of individuals with different backgrounds, experiences, and expertise. We value and appreciate each member's unique contribution and strive to create a supportive environment where everyone can thrive.
+
+#### Team Members
+- Sam Kuczynski (TL)
+- Vytas Stuopis
+- Samuel Aboma
+- Felipe Serrano
+
 ### Why we choose this topic?
 
 Predicting the Super Bowl champions using machine learning.
