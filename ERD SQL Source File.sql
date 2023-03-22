@@ -1,46 +1,31 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/KimmqP
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
-CREATE TABLE "NFL_Game_Data" (
-    "Date" string   NOT NULL,
-    "Away" string   NOT NULL,
-    "Home" string   NOT NULL,
-    "First_downs_away" integer   NOT NULL,
-    "First_downs_home" integer   NOT NULL,
-    "Third_downs_away" string   NOT NULL,
-    "Third_downs_home" string   NOT NULL,
-    "Fourth_downs_away" string   NOT NULL,
-    "Fourth_downs_home" string   NOT NULL,
-    "Passing_yards_away" integer   NOT NULL,
-    "Passing_yards_home" integer   NOT NULL,
-    "Rushing_yards_home" integer   NOT NULL,
-    "Russing_yards_away" integer   NOT NULL,
-    "Total_yards_away" integer   NOT NULL,
-    "Total_yards_home" integer   NOT NULL,
-    "Comp_att_away" integer   NOT NULL,
-    "Comp_att_home" integer   NOT NULL,
-    "Sacks_away" string   NOT NULL,
-    "Sacks_home" string   NOT NULL,
-    "Rushing_attempts_away" integer   NOT NULL,
-    "Rushing_attempts_home" integer   NOT NULL,
-    "Fumbles_away" integer   NOT NULL,
-    "Fumbles_home" integer   NOT NULL,
-    "Int_away" integer   NOT NULL,
-    "Int_home" integer   NOT NULL,
-    "Turnovers_away" integer   NOT NULL,
-    "Turnovers_home" integer   NOT NULL,
-    "Penalties_away" string   NOT NULL,
-    "Penalties_home" string   NOT NULL,
-    "Redzone_away" string   NOT NULL,
-    "Redzone_home" string   NOT NULL,
-    "Drives_away" integer   NOT NULL,
-    "Drives_home" integer   NOT NULL,
-    "Def_st_td_away" integer   NOT NULL,
-    "Def_st_td_home" integer   NOT NULL,
-    "Possession_away" string   NOT NULL,
-    "Possession_home" string   NOT NULL,
-    "Score_away" integer   NOT NULL,
-    "Score_home" integer   NOT NULL
+CREATE TABLE `NFL_Game_Data` (
+    `Date` string  NOT NULL ,
+    `Away Team ID` string  NOT NULL ,
+    `Home Team ID` string  NOT NULL ,
+    `Turnovers_away` integer  NOT NULL ,
+    `Turnovers_home` integer  NOT NULL ,
+    `Possession_away` string  NOT NULL ,
+    `Possession_home` string  NOT NULL ,
+    `Score_away` integer  NOT NULL ,
+    `Score_home` integer  NOT NULL 
 );
+
+CREATE TABLE `NFL_Team_IDs` (
+    `Team_ID` integer  NOT NULL ,
+    `Team_Name` string  NOT NULL ,
+    `Team_City` string  NOT NULL 
+);
+
+ALTER TABLE `NFL_Game_Data` ADD CONSTRAINT `fk_NFL_Game_Data_Away Team ID` FOREIGN KEY(`Away Team ID`)
+REFERENCES `NFL_Team_IDs` (`Team_ID`);
+
+ALTER TABLE `NFL_Game_Data` ADD CONSTRAINT `fk_NFL_Game_Data_Home Team ID` FOREIGN KEY(`Home Team ID`)
+REFERENCES `NFL_Team_IDs` (`Team_ID`);
 
