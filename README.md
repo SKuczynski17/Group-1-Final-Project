@@ -77,4 +77,4 @@ The data for each of these statistics is defined for the home and away team, whi
 ## Data
 ### ERD Diagram
 
-![ERD Diagram] (https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/ERD%20Image.png)
+![ERD Diagram](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/ERD%20Image.png)
