@@ -35,15 +35,15 @@ We believe that our project has the potential to contribute significantly to the
 
 ### Questions to be answered:
 
-With this data we are looking to create a machine learning model to analyze the impact key metrics have on the likelyhood of winning a Superbowl and to predict future Super Bowl winners.
+With this data we are looking to create a machine learning model to analyze the impact key metrics have on the likelyhood of winning football games in the NFL.
 
-We will train this model using playoff team statistics from every regular season since 2010. This data includes many different statistics listed below but we are going to focus on three specifically:
+We will train this model using specific statistics from every game including playoffs since 2010. This data includes many different statistics listed below but we are going to focus on three specifically:
 
 * Points Scored Differential
 * Turnover Differential
 * Time of Possesion
 
-We believe that these statistics play a major part in winning football games & championships. Teams who rank high in these statistics should be winning more playoff games and also competing or winning SuperBowls more often. This model should provide us with ideal targets for these statistics that would give clear indiciators on which playoff team should win that years Superbowl.
+We believe that these statistics play a major part in winning football games and will provide us the best model. Teams who rank high in these statistics should be winning more playoff games and also competing or winning SuperBowls more often. This model should provide us with ideal targets for these statistics that would give clear indiciators on what a team should target to win the most gamesa.
 
 ### Data description
 
