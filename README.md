@@ -23,15 +23,15 @@ We will be pulling our dataset from [Open ML](https://www.openml.org/search?type
 
 ### Why we choose this topic?
 
-Predicting the Super Bowl champions using machine learning.
+Predicting NFL game winners using machine learning.
 
 Our topic was chosen due to the widespread popularity of the NFL and the SuperBowl, as well as the potential for innovation and challenge in using machine learning to predict outcomes.
 
-Our project aims to analyze the impact of key metrics such as Points Scored Differential, Turnover Differential, and Time of Possession on the likelihood of winning a SuperBowl.
+Our project aims to analyze the impact of key metrics such as Points Scored Differential,Turnover Differential, and Time of Possession on the likelihood of winning a SuperBowl.
 
 We plan to train a machine learning model on playoff team statistics from every regular season since 2010 and create a model that can provide ideal targets for these statistics and predict future SuperBowl winners.
 
-We believe that our project has the potential to contribute significantly to the field of sports analytics and showcase the power of machine learning in predicting outcomes.
+We believe that our project has the potental to contribute significantly to the field of sports analytics and showcase the power of machine learning in predicting outcomes of NFL games. 
 
 ### Questions to be answered:
 
