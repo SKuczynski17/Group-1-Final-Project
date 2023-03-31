@@ -89,5 +89,17 @@ After importing the necessary libraries and methods, we loaded the dataset into 
 
 To gain insights into the data, we printed the description of the features using the describe method to get a statistical summary of the data. Overall, the data exploration phase of this project involved loading the dataset into a Pandas dataframe, checking for null values, dropping irrelevant columns, and creating the features and target variables for the model.
 
+### The Analysis Phase of the Project
+
+In this phase, we aim to predict the winner of NFL games using available data. The analysis begins with importing the necessary packages and loading the data from the 'final_nfl_data.csv' file. The dataset contains various features such as home advantage, turnovers, score, and possession, and the winner column is the target variable.
+
+We start by cleaning the data by dropping any null columns and rows using the dropna method, and removing any irrelevant columns such as 'date', 'team_id', and 'name'. The possession column is also converted into seconds using the timefinder function. We then calculate descriptive statistics for the features using the describe method, and note that the target variable has a balanced number of values.
+The data is then split into training and testing datasets using the train_test_split method, with 80% of the data being used for training. Next, we scale the data using the StandardScaler function to normalize the features.
+
+We then fit a decision tree classifier model using the training data, and make predictions on the testing dataset. We evaluate the model's performance using the confusion matrix, accuracy score, and classification report. The model's accuracy score is 0.814, which is relatively high, and indicates the model's ability to correctly predict the winner. 
+
+Overall, the model has shown promising results in predicting the winner of NFL games. By cleaning and preprocessing the data, and training a decision tree classifier model, we were able to accurately predict the winner of NFL games using a set of features
+
+
 
 
