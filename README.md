@@ -80,3 +80,14 @@ The data for each of these statistics is defined for the home and away team, whi
 We will have two tables, one with all the teams and basic info (team name, abbreviation, conference, division) and another one with all the games info from 2002 to 2022.
 
 ![ERD Diagram](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/ERD%20Image.png)
+
+### The data exploration phase of the project 
+
+In this project, we aim to predict the winner of NFL games based on certain features such as turnovers, score, possession, and home advantage. The dataset used in this project is contained in the 'final_nfl_data.csv' file. We started by importing the necessary libraries such as NumPy, Pandas, Pathlib, and collections. We also imported the required methods from Scikit-learn and imblearn libraries such as balanced_accuracy_score, confusion_matrix, and classification_report_imbalanced.
+            
+After importing the necessary libraries and methods, we loaded the dataset into a Pandas dataframe using the read_csv method. We then checked the dataset for any null values, and dropped the null columns and rows using the dropna method. We also reset the index of the dataframe using the reset_index method. Since we would not be using the 'date', 'team_id', and 'name' columns in the prediction, we dropped them using the drop method.
+
+To gain insights into the data, we printed the description of the features using the describe method to get a statistical summary of the data. Overall, the data exploration phase of this project involved loading the dataset into a Pandas dataframe, checking for null values, dropping irrelevant columns, and creating the features and target variables for the model.
+
+
+
