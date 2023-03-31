@@ -96,7 +96,8 @@ In this phase, we aim to predict the winner of NFL games using available data. T
 We start by cleaning the data by dropping any null columns and rows using the dropna method, and removing any irrelevant columns such as 'date', 'team_id', and 'name'. The possession column is also converted into seconds using the timefinder function. We then calculate descriptive statistics for the features using the describe method, and note that the target variable has a balanced number of values.
 The data is then split into training and testing datasets using the train_test_split method, with 80% of the data being used for training. Next, we scale the data using the StandardScaler function to normalize the features.
 
-We then fit a decision tree classifier model using the training data, and make predictions on the testing dataset. We evaluate the model's performance using the confusion matrix, accuracy score, and classification report. The model's accuracy score is 0.814, which is relatively high, and indicates the model's ability to correctly predict the winner. 
+We then fit a decision tree classifier model using the training data, and make predictions on the testing dataset. We evaluate the model's performance using the confusion matrix, accuracy score, and classification report. The model's accuracy score is 0.7298, indicating that there is still room for improvement.
+Therefore, we implement a regression model that enhances the accuracy up to 83%, which is relatively high and suggests the model's ability to correctly predict the winner. 
 
 Overall, the model has shown promising results in predicting the winner of NFL games. By cleaning and preprocessing the data, and training a decision tree classifier model, we were able to accurately predict the winner of NFL games using a set of features
 
