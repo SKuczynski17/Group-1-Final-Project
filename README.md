@@ -109,5 +109,5 @@ Overall, the model has shown promising results in predicting the winner of NFL g
 
 ## Visualizations
 
-![Key 3 statistics by home and away matchups](https://public.tableau.com/app/profile/vytas.stuopis/viz/NFLTeamStats_16806554198700/AllStatsbyHomeandAwayTeam)
+[Key 3 statistics by home and away matchups](https://public.tableau.com/app/profile/vytas.stuopis/viz/NFLTeamStats_16806554198700/AllStatsbyHomeandAwayTeam)
 
