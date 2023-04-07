@@ -98,11 +98,11 @@ The data is then split into training and testing datasets using the train_test_s
 
 We then fit a decision tree classifier model using the training data, and make predictions on the testing dataset. We evaluate the model's performance using the confusion matrix, accuracy score, and classification report. The model's accuracy score is 72.98%, indicating that there is still room for improvement.
 
-![Decision Tree Confusion Matrix](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/Decision%20Tree%20Confusion%20Matrix.png)
+![Decision Tree Confusion Matrix](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/Images/Decision%20Tree%20Confusion%20Matrix.png)
 
 Therefore, we implement a regression model that enhances the accuracy up to roughly 81.37%, which is relatively high and suggests the model's ability to correctly predict the winner. 
 
-![Logistical Regression Confusion Matrix](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/Logistical%20Regression%20Accuracy%20Score%20and%20Classification%20Matrix.png)
+![Logistical Regression Confusion Matrix](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/Images/Logistical%20Regression%20Accuracy%20Score%20and%20Classification%20Matrix.png)
 
 Overall, the model has shown promising results in predicting the winner of NFL games. By cleaning and preprocessing the data, and training a decision tree classifier model, we were able to accurately predict the winner of NFL games using a set of features
 
