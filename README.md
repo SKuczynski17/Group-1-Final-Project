@@ -79,7 +79,7 @@ The data for each of these statistics is defined for the home and away team, whi
 
 We will have two tables, one with all the teams and basic info (team name, abbreviation, conference, division) and another one with all the games info from 2002 to 2022.
 
-![ERD Diagram](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/ERD%20Image.png)
+![ERD Diagram](https://github.com/SKuczynski17/Group-1-Final-Project/blob/main/Images/ERD%20Image.png)
 
 ### The data exploration phase of the project 
 
